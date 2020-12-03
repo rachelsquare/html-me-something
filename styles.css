@@ -1,0 +1,86 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    transition: margin-left .5s;
+    
+}
+main{
+    padding: 100px 100px 100px 100px;
+    
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+#nobullets{
+    list-style-type: none;
+}
+
+li{
+    margin: .5em 2em 2em 2em;
+}
+
+/*
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}*/
+
+
+.myheader{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+img{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.event{
+    padding: 10px 10px 10px 10px;
+}
+
+.sidenav{
+    padding: 8px 8px 8px 8px;
+    height: 100%; /* 100% Full-height */
+    width: 10; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a{
+    background-color: teal;
+    color: whitesmoke;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav a:hover{
+    background-color: transparent;
+}
+
+.sidenav a:active{
+    background-color: black;
+}
